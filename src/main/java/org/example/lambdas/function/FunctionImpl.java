@@ -13,6 +13,11 @@ import java.util.function.Function;
  * Function interfaces are very useful as we can specify the type of input and output.
  *
  * Below are some of the interfaces that fall in this category.
+ *
+ * Function<T, R>
+ * The function takes only one argument of type T and returns a result of type R.
+ *
+ * The following is the list of all the methods in the Function<T, R> interface.
  */
 public class FunctionImpl {
     public static void main(String[] args) {

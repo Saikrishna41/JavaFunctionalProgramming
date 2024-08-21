@@ -1,8 +1,5 @@
-package org.example.lambdas.unary;
+package org.example.lambdas.function.unary;
 
-import org.example.lambdas.Person;
-
-import java.util.function.Function;
 import java.util.function.UnaryOperator;
 
 class Person2 {

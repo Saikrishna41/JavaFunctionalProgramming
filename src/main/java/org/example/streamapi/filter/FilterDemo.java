@@ -32,7 +32,5 @@ public class FilterDemo {
         list.add(new Person("Ryan", 63));
         list.add(new Person("Todd", 5));
         list.stream().filter(person -> person.getAge() >= 18 && person.getAge() <= 60).forEach(System.out::println);
-
-
     }
 }
